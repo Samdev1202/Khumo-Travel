@@ -1,0 +1,71 @@
+
+body {
+  overflow-x: hidden;
+  font-family: 'Dosis', sans-serif;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: linear-gradient(to bottom, rgba(20, 19, 19, 0.603),rgba(22, 21, 21, 0.514)), url('../img/image1.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.carousel-image-2 {
+  background: linear-gradient(to bottom, rgba(20, 19, 19, 0.603),rgba(22, 21, 21, 0.514)), url('../img/image2.jpeg');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.carousel-image-3 {
+  background: linear-gradient(to bottom, rgba(20, 19, 19, 0.603),rgba(22, 21, 21, 0.514)), url('../img/image3.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+.icon{
+  width: 35px;
+  height: 35px;
+  margin:-3px 20px;
+}
+
+.why{
+  margin: 22px 0;
+  font-size: 20px;
+  color: rgb(63, 61, 61);
+
+  
+}
+
+.d-flex picture {
+  width:300px;
+  flex: auto;
+  cursor:pointer;
+
+  margin: 0 10px;
+
+}
+
+@media only screen and (max-width: 520px) {
+  .display-3 {
+    font-size: 38px;
+    
+  }
+}
+
